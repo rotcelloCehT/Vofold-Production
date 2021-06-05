@@ -8,7 +8,8 @@ import { useOnClickOutside } from './hooks';
 // NAVIGATION HAMBURGER -- imported as one from index.js in /nav
 import { Burger, Menu } from './components/nav';
 import Header from './components/header/Header';
-import Triplecards from './components/triplecards/Triplecards';
+import Triplecards from './components/tripleCards/Triplecards';
+import ThreeStep from './components/threeStep/ThreeStep';
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         </div>
         <Header />
         <Triplecards />
+        <ThreeStep />
       </>
     </ThemeProvider>
   );

@@ -27,8 +27,8 @@ html, body {
   }
 
   body {
-    background: ${({ theme }) => theme.primaryDark};
-    color: ${({ theme }) => theme.primaryLight};
+    background: ${({ theme }) => theme.primaryLight};
+    color: ${({ theme }) => theme.primaryDark};
     width: 100%;
     text-rendering: optimizeLegibility;
     font-family: 'Nunito';

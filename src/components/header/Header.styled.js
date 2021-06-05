@@ -26,6 +26,7 @@ export const StyledHeader = styled.div `
     }
 
     h1 {
+        color: #fff;
         font-size: 3.5rem;
         text-align: center;
         margin-top: 15vh;
