@@ -18,19 +18,18 @@ export const GlobalStyles = createGlobalStyle`
 html, body {
     margin: 0;
     padding: 0;
+    background: red;
   }
 
   *, *::after, *::before {
     box-sizing: border-box;
+    
   }
 
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
-    height: 100vh;
+    width: 100%;
     text-rendering: optimizeLegibility;
     font-family: 'Nunito';
   }
