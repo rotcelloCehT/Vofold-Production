@@ -9,7 +9,7 @@ import { useOnClickOutside } from './hooks';
 import { Burger, Menu } from './components/nav';
 import Header from './components/header/Header';
 import Triplecards from './components/tripleCards/Triplecards';
-import ThreeStep from './components/threeStep/ThreeStep';
+import FolderAnimation from './components/folderAnimation/FolderAnimation';
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,7 @@ function App() {
         </div>
         <Header />
         <Triplecards />
-        <ThreeStep />
+        <FolderAnimation />
       </>
     </ThemeProvider>
   );

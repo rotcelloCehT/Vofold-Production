@@ -13,11 +13,11 @@ const Triplecards = () => {
             </div>
             <div className="card">
                 <img src={ cardImg2 } alt="folder illustration" />
-                <p>Select the source. Ex) SD Card or smartphone photos folder</p>
+                <p>Select the output. The location where you want the dated folders stored</p>
             </div>
             <div className="card">
                 <img src={ cardImg3 } alt="folder illustration" />
-                <p>Select the source. Ex) SD Card or smartphone photos folder</p>
+                <p>Click Organise to create dated folders with copies of the source images</p>
             </div>
         </StyledTriplecards>
     )

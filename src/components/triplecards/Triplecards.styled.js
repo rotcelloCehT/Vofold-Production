@@ -19,7 +19,7 @@ export const StyledTriplecards = styled.div `
         height: 80vh;
         margin: 10px;
         @media (min-width: ${({ theme }) => theme.desktop}) {
-            height: 60vh;
+            height: 50vh;
         }
     }
 
