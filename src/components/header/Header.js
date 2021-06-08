@@ -7,7 +7,7 @@ const Header = () => {
         <StyledHeader className="header-container">
             <div className='text-container'>
                 <h1>VOFOLD</h1>
-                <h2>Organise photos<br/> into folder with<br/> one click</h2>
+                <h2>Organise photos<br/> into folders with<br/> one click</h2>
             </div>
             <span><img src={ headerImg } alt="folder illustration" /></span>
         </StyledHeader>

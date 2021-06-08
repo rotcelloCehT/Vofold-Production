@@ -5,6 +5,7 @@ export const StyledTriplecards = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F8F8F8;
     @media (min-width: ${({ theme }) => theme.desktop}) {
         flex-direction: row;
         justify-content: center;
